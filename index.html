@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        console.log(screen.width);
+        if (screen.width <= 360) {
+            document.location = "x360/x360.html";
+        } else if (screen.width > 360 && screen.width <= 414) {
+            document.location = "x414/x414.html";
+        } else if (screen.width > 414 && screen.width <= 768) {
+            document.location = "x768/x768.html";
+        } else if (screen.width > 768 && screen.width <= 1024) {
+            document.location = "x1024/x1024.html";
+        } else if (screen.width > 1024 && screen.width <= 1280) {
+            document.location = "x1280/x1280.html";
+        } else if (screen.width > 1280 && screen.width <= 1366) {
+            document.location = "x1366/x1366.html";
+        } else {
+            document.location = "x1920/x1920.html";
+        }
+    </script>
+</body>
+
+</html>
